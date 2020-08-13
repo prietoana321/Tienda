@@ -1,0 +1,318 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+.body1 {
+	background: url(../vista1/img/tool1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;	
+	font-family: 'Montserrat', sans-serif;	
+}
+
+.body3 {
+	background: url(img/CO-HERRAMIENTAS-DE-FERRETERÍA-QUE-NO-TE-PUEDEN-FALTAR-EN-TU-CASA.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;	
+	font-family: 'Montserrat', sans-serif;	
+}
+.body4 {
+	background: url(img/fggghgg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;	
+	font-family: 'Montserrat', sans-serif;	
+}
+
+.contenedor article {
+	line-height: 28px;
+	margin-left: 920px;
+	margin-top: 70px;
+	text-align: center;
+	color: linen;
+}
+.contenedor .articles{
+	line-height: 28px;
+	margin-left: 390px;
+	color: white;
+	font-size: 60px;
+	margin-top: 120px;
+	text-align: center;	
+	text-shadow: 0.2em 0.2em 0.3em black
+
+}
+
+
+
+.contenedor article h1 {
+	font-size: 72px;
+	padding: 20px;
+	background: rgba(78, 71, 60, 0.397);
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 53px;
+	padding-right:53px;
+	box-shadow: 3px 1px 3px 1px rgba(31, 30, 30, 0.74);
+	text-shadow: 0.2em 0.2em 0.3em black
+	
+	
+	
+}
+
+
+.contenedor article .btn-abrir-popup {
+	padding: 0 20px;
+	margin-bottom: 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+	cursor: pointer;
+}
+
+.contenedor article .btn-abrir-popup:hover {
+	background: rgba(87, 208, 224, 0.9);
+}
+
+.contenedor .articlesb {
+	line-height: 28px;
+	margin-left: 900px;
+	margin-top: 100px;
+	text-align: center;
+	color: linen;
+}
+.contenedor .articlesa1{
+	line-height: 28px;
+	box-shadow: 5px 5px 5px 5px rgba(31, 30, 30, 0.74) ;	
+	background: rgba(78, 71, 60, 0.397);	
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: white;
+	font-size: 63px;
+	text-align: justify;
+	height:500px ;
+	width:900px ;	
+}
+.colage2{
+	line-height: 28px;
+	text-align: center;
+	margin-top: 30px;
+	justify-content: center;
+	position: relative;
+}
+.colage1{
+	line-height: 28px;
+	text-align: center;
+	margin-top: 20px;
+	justify-content: center;
+	position: relative;
+	margin-left: 200px;
+
+}
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.contenedor .articlesa2{
+	padding: 5px;
+	line-height: 28px;
+	background: rgba(78, 71, 60, 0.397);	
+	margin-left:150px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: white;
+	font-size: 63px;
+	text-align: justify;
+	
+}
+
+
+
+.contenedor .articlesb h1 {
+	box-shadow: 3px 0px 22px 0px rgba(66, 65, 63, 0.74) inset;
+	font-size: 72px;
+	padding: 2%;
+	background: rgba(78, 71, 60, 0.397);
+	padding-left: 5px;
+	
+	text-shadow: 0.1em 0.1em 0.2em black
+	
+	
+}
+
+
+.contenedor .articlesb .btn-abrir-popup {
+	padding: 0 20px;
+	margin-bottom: 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+	cursor: pointer;
+}
+
+.contenedor .articlesb .btn-abrir-popup:hover {
+	background: rgba(87, 208, 224, 0.9);
+}
+
+/* ------------------------- */
+/* POPUP */
+/* ------------------------- */
+
+.overlay {
+	background: rgba(0,0,0,.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	visibility: hidden;
+}
+
+.overlay.active {
+	visibility: visible;
+}
+
+.popup {
+	background: #F8F8F8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+
+.popup .btn-cerrar-popup {
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #BBBBBB;
+}
+
+.popup .btn-cerrar-popup:hover {
+	color: #000;
+}
+
+.popup h3 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+
+.popup h4 {
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	opacity: 0;
+}
+
+.popup form .contenedor-inputs {
+	opacity: 0;
+}
+
+.popup form .contenedor-inputs input {
+	width: 90%;
+	margin-bottom: 20px;
+	height: 42px;
+	font-size: 18px;
+	line-height: 52px;
+	text-align: center;
+	border: 1px solid #BBBBBB;
+	
+	overflow-y:scroll;
+}
+
+.popup form .btn-submit {
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.popup form .btn-submit:hover {
+	background: rgba(121, 124, 136, 0.9);
+}
+
+/* ------------------------- */
+/* ANIMACIONES */
+/* ------------------------- */
+.popup.active {	transform: scale(1); opacity: 1; }
+.popup.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
+.popup.active h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
+.popup.active .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
+
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaSubtitulo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaInputs {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}

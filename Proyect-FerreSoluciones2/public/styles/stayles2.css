@@ -1,0 +1,187 @@
+.menu1{
+    margin-top: 50px;
+    margin-bottom: -20px;
+    
+    z-index: 20;
+    height: 100%;
+    background: rgba(37, 34, 34, 0.767);
+    list-style: none;
+    line-height: 42px;   
+    padding-left: 5px;
+    
+    width: 15em;
+    position: absolute;
+    position: fixed;
+}
+.menu_border{
+    margin-left: 2px;
+    margin-top: 100px;
+    margin-bottom: -20px;
+    
+    z-index: 20;
+    height: 20%;
+    background: rgba(37, 34, 34, 0.767);
+    line-height: 42px;   
+    padding-left: 0;
+    
+    width: 100%;
+
+}
+
+
+.menu1 a{
+    
+    padding-left: 42px;
+    margin-top: 1em;
+    color:white;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;  
+}
+
+
+.menu1 li{
+    box-shadow:3px 0 rgba(0, 0, 0, 0.192) inset;    
+    margin-bottom: 5px;
+    padding-left: .5em;    
+    
+}
+
+.menu1  :hover{
+    box-shadow: 15em 0 rgba(0, 0, 0, 0.192) inset; 
+    --webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.barra{
+    background: url(../vista1/img/barra.jpg);
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    margin-left:0;   
+}
+.more{
+    margin-left: 1145px;
+}
+.body5{
+    background: url(img/barra.jpg);
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;	
+	font-family: 'Montserrat', sans-serif;
+}
+
+.body2 {
+    background: url(../vista1/img/tool1.jpg);
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;	
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.uno{
+ background: url(../vista1/img/house.png) no-repeat left top;
+ }
+.dos{
+    background: url(../vista1/img/register.png) no-repeat left top;
+    }
+.tres{
+    background: url(../vista1/img/smart-cart.png) no-repeat left top;
+    }    
+
+.cuatro{
+    background: url(../vista1/img/group.png) no-repeat left top;
+    }
+footer{
+   text-align: center;
+   background:rgba(37, 34, 34, 0.950);
+   margin-bottom: -40px;
+   z-index: 21;
+   color: white;
+   position: relative;
+   width: 100%;
+}
+.texxto{
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+hr{
+    height: 6px;
+    background-color: rgba(43, 38, 38, 0.733);
+    z-index: 30;
+    width: 26%;
+    margin-left: 390px;
+    box-shadow: rgba(32, 31, 31, 0.555);
+    
+}
+.textoregister{
+    line-height: 28px;	
+	margin-top: 50px;
+	margin-left: 700px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	color: white;
+	font-size: 31px;
+	text-align: center;
+    text-shadow: 0.8em 0.8em 1em rgb(44, 38, 38);
+    box-shadow: 5px 5px 5px 5px rgba(31, 30, 30, 0.74) ;	
+	background: rgba(78, 71, 60, 0.397);	
+}
+.ayudaregistro{
+    color: black;
+    margin-left: 870px; 
+    font-size: 20px;
+    
+}
+.somos{
+    font-size: 20px;
+    color: white;
+    
+}
+.logo {
+    margin-top: 50px;
+    width: 1550px;
+    height: 350px;
+    padding-top: 50px;
+
+}
+
+.iconos{
+    background: url(../vista1/img/mail.png)no-repeat left ;
+}
+.iconosone{
+    background: url(../vista1/img/product.png)no-repeat left ;
+}
+.iconostwo{
+    background: url(../vista1/img/mark.png)no-repeat left ;
+}
+.iconosthree{
+    background: url(../vista1/img/price.png)no-repeat left ;
+}
+.iconosuno{
+    background: url(../vista1/img/user.png)no-repeat left ;
+}
+.iconosdos{
+    background: url(../vista1/img/password.png)no-repeat left ;
+}
+.termino{
+    font-size: 70px;
+    color: black;
+    margin-top: 130px;
+}
+
